@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping({"/api/cdm/core/deposit"})
+@RequestMapping("/api/cdm/core/deposit")
 @RequiredArgsConstructor
 @Log4j2
 public class TrxDepositController implements BaseReadController<TrxDeposit, UUID> {

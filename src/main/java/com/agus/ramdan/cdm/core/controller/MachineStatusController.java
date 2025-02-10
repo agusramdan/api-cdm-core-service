@@ -37,7 +37,7 @@ import java.util.stream.Collectors;
  *
  */
 @RestController
-@RequestMapping("/api/cdm/machine/status")
+@RequestMapping("/api/cdm/core/status")
 @RequiredArgsConstructor
 @Validated
 public class MachineStatusController {
